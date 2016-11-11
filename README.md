@@ -1,7 +1,7 @@
 Should I go eager or lazy with JPA mappings?
 ===============
 
-code example for https://dkublik.github.io/lazy%20vs%20eager%20jpa%20mappings
+code example for http://dkublik.github.io/lazy-vs-eager-jpa-mappings/
 
 
 ## Requirements
