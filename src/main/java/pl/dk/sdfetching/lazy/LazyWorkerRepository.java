@@ -1,12 +1,10 @@
 package pl.dk.sdfetching.lazy;
 
-import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
-import org.springframework.stereotype.Repository;
 
-@Repository
-interface LazyWorkerRepository extends JpaRepository<LazyWorker, String> {
+interface LazyWorkerRepository extends CrudRepository<LazyWorker, String> {
 
     LazyWorker findBySurname(String surname);
 

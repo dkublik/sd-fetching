@@ -1,12 +1,10 @@
 package pl.dk.sdfetching.eager;
 
-import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
-import org.springframework.stereotype.Repository;
 
-@Repository
-interface EagerWorkerRepository extends JpaRepository<EagerWorker, String> {
+interface EagerWorkerRepository extends CrudRepository<EagerWorker, String> {
 
     EagerWorker findBySurname(String surname);
 
