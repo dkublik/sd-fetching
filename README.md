@@ -11,8 +11,8 @@ code example for https://dkublik.github.io/lazy%20vs%20eager%20jpa%20mappings
 * Gradle 3.1
 
 ## To run
-EagerWorkerRepositorySpec - test for entity with eager mapping
-LazyWorkerRepositorySpec - test for entity with lazy mapping
+* EagerWorkerRepositorySpec - test for entity with eager mapping
+* LazyWorkerRepositorySpec - test for entity with lazy mapping
 
 
 
